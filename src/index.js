@@ -1,6 +1,6 @@
-let identity = s => s;
 import mojs from 'mo-js';
 
+let identity = s => s;
 console.log(identity('Initialized'));
 console.log(mojs);
 
@@ -10,3 +10,6 @@ console.log(mojs);
 //     });
 
 const burst = new mojs.Burst();
+document.addEventListener( 'click' , (e) => {
+  burst.replay();
+});

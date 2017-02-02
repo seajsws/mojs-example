@@ -11721,6 +11721,9 @@ console.log(_moJs2.default);
 //     });
 
 var burst = new _moJs2.default.Burst();
+document.addEventListener('click', function (e) {
+  burst.replay();
+});
 
 /***/ })
 /******/ ]);
